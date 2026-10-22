@@ -1,0 +1,100 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Profile</title>
+    <style>
+      td {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Student Profile and Course Information</h1>
+    <nav>
+      <ol>
+        <a href="about.html">About Me</a>
+        <a href="courses.html">Courses Enrolled</a>
+        <a href="contact.html">Contact Me</a>
+      </ol>
+    </nav>
+    <h2>About Me</h2>
+    <img src="1RV25CS007.jpg" alt="My Picture" height="200" width="200" />
+    <p>
+      I am a 2nd year Computer Science Student studying in R. V. College of
+      Engineering.
+    </p>
+    <h2>My skills</h2>
+    <ul>
+      <li>Web Development</li>
+      <li>AI/ML</li>
+      <li>Cloud Computing</li>
+    </ul>
+    <hr />
+    <h2>Currently Enrolled Courses</h2>
+    <table border="1">
+      <tr>
+        <th>Sl No.</th>
+        <th>Course</th>
+        <th>About the Course</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Applied Digital Logic and Design</td>
+        <td>Basically Electronics in Computer Science</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Operating Systems</td>
+        <td>
+          Used to learn different architectures and working of different
+          Operating Systems
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Skill Lab</td>
+        <td>
+          Currently helpful for learning Full-Stack Development. To know what's
+          there for next year, click this: <a href="skill_lab.html">Updates</a>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <h2>Me Performance</h2>
+    <table border="1">
+      <tr>
+        <th>Semester</th>
+        <th>SGPA</th>
+        <th>CGPA</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>9.7</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>9.5</td>
+        <td>-</td>
+      </tr>
+    </table>
+    <h3>Total CG = 9.6</h3>
+    <hr />
+    <h2>Fill in this form</h2>
+    <form action="thankyou.html">
+      <label>Name</label>
+      <input type="text" /> <br />
+      <label>Email ID</label>
+      <input type="email" /> <br />
+      <label>Select a Course</label>
+      <select name="course" id="course">
+        <option value="adld">Applied Digital Logic Design</option>
+        <option value="os">Operating Systems</option>
+        <option value="skill">Skill Lab</option>
+      </select>
+      <br />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
